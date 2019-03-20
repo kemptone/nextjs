@@ -1,6 +1,8 @@
 import { Component } from "react";
 import Link from "next/link";
 import Header from "../components/header";
+import {LARGE_FARD, OTHER_LARGE_FARD} from '../enums/index'
+
 
 class AboutPage extends Component {
   static getInitialProps() {
@@ -13,6 +15,12 @@ class AboutPage extends Component {
       <main>
         <Header />
         <section>
+          <p>
+            { LARGE_FARD }
+          </p>
+          <p>
+            { OTHER_LARGE_FARD }
+          </p>
           <p>
             Fards were gards of lards
           </p>
