@@ -14,6 +14,9 @@ class AboutPage extends Component {
         <Header />
         <section>
           <p>
+            Fards were gards of lards
+          </p>
+          <p>
             This is another page of the SSR example, you accessed it{" "}
             <strong>{this.props.isServer ? "server" : "client"} side</strong>.
           </p>
